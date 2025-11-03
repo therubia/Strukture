@@ -191,9 +191,9 @@ Person* addToStart(Person* head, char* name, char* surname, int birthYear) {
     strcpy(newPerson->surname, surname);
     newPerson->birthYear = birthYear;
 
-    newPerson->next = head;  // nova osoba pokazuje na trenutni pocetak
-    return newPerson;       // novi element postaje head
-}
+    newPerson->next = head->next;  
+    head->next = newPerson;
+    return newPerson;       
 
 Person* addToEnd(Person* head, char* name, char* surname, int birthYear) {
     Person* newPerson = (Person*)malloc(sizeof(Person));
