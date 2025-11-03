@@ -3,13 +3,17 @@ A.dinamicki dodaje novi element na pocetak liste,
 B.ispisuje listu,
 C.dinamicki dodaje novi element na kraj liste,
 D.pronalazi element u listi(po prezimenu),
-E.briöe odredeni element iz liste,
-U zadatku se ne smiju koristiti globalne varijable.*//* Prethodnom zadatku dodati funkcije:
+E.bri≈°e odredeni element iz liste,
+U zadatku se ne smiju koristiti globalne varijable.*/
+
+/* Prethodnom zadatku dodati funkcije:
 A. dinamicki dodaje novi element iza odredenog elementa,
 B. dinamicki dodaje novi element ispred odredenog elementa,
 C. sortira listu po prezimenima osoba,
 D. upisuje listu u datoteku,
-E. cita listu iz datoteke.*/#define _CRT_SECURE_NO_WARNINGS
+E. cita listu iz datoteke.*/
+
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -27,8 +31,8 @@ typedef struct Person {
 Person* addToStart(Person* head, char* name, char* surname, int birthYear);  // Dodaje osobu na pocetak liste
 Person* addToEnd(Person* head, char* name, char* surname, int birthYear);  // Dodaje osobu na kraj liste
 void printList(Person* head);  // Ispisuje sve osobe iz liste
-Person* findBySurname(Person* head, char* surname);  // Traûi osobu po prezimenu
-Person* deleteBySurname(Person* head, char* surname);  // Briöe osobu po prezimenu
+Person* findBySurname(Person* head, char* surname);  // Tra≈æi osobu po prezimenu
+Person* deleteBySurname(Person* head, char* surname);  // Bri≈°e osobu po prezimenu
 void freeList(Person* head);  // Oslobada svu memoriju zauzetu listom
 Person* addAfter(Person* head, char* name, char* surname, int birthYear); //Dodaje novu osobu iza zadane osobe
 Person* addBefore(Person* head, char* name, char* surname, int birthYear); //Dodaje novu osobu ispred zadane osobe
@@ -77,7 +81,7 @@ int main() {
         printf("10. Ucitaj listu iz datoteke (zamijeni trenutnu)\n");
         printf("0. Izlaz\n");
         printf("Odaberite opciju: ");
-        scanf("%d", &choice);  //korisnik bira koju operaciju ûeli izvröiti
+        scanf("%d", &choice);  //korisnik bira koju operaciju ≈æeli izvr≈°iti
 
         switch (choice) {
         case 1:
@@ -166,7 +170,7 @@ int main() {
             break;
 
         case 0:
-            freeList(head);  // oslobadanje memorije prije zavröetka
+            freeList(head);  // oslobadanje memorije prije zavr≈°etka
             printf("Izlaz.\n");
             return 0;
 
@@ -191,8 +195,9 @@ Person* addToStart(Person* head, char* name, char* surname, int birthYear) {
     strcpy(newPerson->surname, surname);
     newPerson->birthYear = birthYear;
 
-    newPerson->next = head;  // nova osoba pokazuje na trenutni pocetak
-    return newPerson;       // novi element postaje head
+    newPerson->next = head->next;
+    head->next=newPerson;
+    return newPerson;       
 }
 
 Person* addToEnd(Person* head, char* name, char* surname, int birthYear) {
@@ -250,7 +255,7 @@ Person* deleteBySurname(Person* head, char* surname) {
         return NULL;
     }
 
-    // ako je prva osoba ta koju briöemo
+    // ako je prva osoba ta koju bri≈°emo
     if (strcmp(head->surname, surname) == 0) {
         Person* temp = head->next;
         free(head);
@@ -258,7 +263,7 @@ Person* deleteBySurname(Person* head, char* surname) {
         return temp;
     }
 
-    // traûimo odgovarajucu osobu
+    // tra≈æimo odgovarajucu osobu
     Person* current = head;
     while (current->next && strcmp(current->next->surname, surname) != 0)
         current = current->next;
@@ -420,4 +425,5 @@ Person* readListFromFile(const char* filename) {
     printf("Lista uspjesno ucitana iz '%s'.\n", filename);
     return head;
 }
+
 
