@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak4\\zadatak4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zadatak4\\zadatak4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak5\\zadatak5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zadatak5\\zadatak5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak3\\zadatak3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zadatak3\\zadatak3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak2\\zadatak2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Zadatak2\\zadatak2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "zadatak4.c",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak4\\zadatak4.c",
+              "RelativeDocumentMoniker": "Zadatak4\\zadatak4.c",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak4\\zadatak4.c",
+              "RelativeToolTip": "Zadatak4\\zadatak4.c",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-08T11:04:27.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "zadatak2.c",
+              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak2\\zadatak2.c",
+              "RelativeDocumentMoniker": "Zadatak2\\zadatak2.c",
+              "ToolTip": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak2\\zadatak2.c",
+              "RelativeToolTip": "Zadatak2\\zadatak2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-03T22:36:12.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "zadatak5.c",
               "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak5\\zadatak5.c",
               "RelativeDocumentMoniker": "Zadatak5\\zadatak5.c",
               "ToolTip": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak5\\zadatak5.c",
               "RelativeToolTip": "Zadatak5\\zadatak5.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-03T17:53:27.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "zadatak3.c",
-              "DocumentMoniker": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak3\\zadatak3.c",
-              "RelativeDocumentMoniker": "Zadatak3\\zadatak3.c",
-              "ToolTip": "C:\\Users\\Iva\\Desktop\\strukture\\Strukture\\Zadatak3\\zadatak3.c",
-              "RelativeToolTip": "Zadatak3\\zadatak3.c",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-29T09:41:29.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T17:53:27.385Z"
             }
           ]
         }
